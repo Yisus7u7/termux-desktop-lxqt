@@ -5,7 +5,7 @@ Install a simple and very lively desktop in termux
 ### What is termux-desktop-lxqt? 
 
 Termux desktop lxqt is a configuration of the very recent lxqt environment, available in x11 termux
-your goal is to be a livean, and very simple! 
+your goal is to be a light, and very simple! 
 termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so far 
 
 ## screenshots
