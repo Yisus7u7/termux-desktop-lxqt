@@ -33,6 +33,8 @@ The objective of this project is aimed at cell phones with little space or low r
 # installation 
 
 ```
+cd $HOME
+
 pkg update && pkg upgrade
 
 pkg install git
