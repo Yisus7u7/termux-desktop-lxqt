@@ -1,2 +1,4 @@
 # termux-desktop-lxqt
-Coming Soon! 
+Install a simple and very lively desktop in termux 
+
+
