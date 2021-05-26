@@ -1,19 +1,21 @@
-# termux-desktop-lxqt
+# Termux-desktop-lxqt
 Install a simple and very lively desktop in termux 
 
 
-### What is termux-desktop-lxqt? 
+### What is Termux-desktop-lxqt? 
 
 Termux desktop lxqt is a configuration of the very recent lxqt environment, available in x11 termux
 your goal is to be a light, and very simple! 
 termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so far 
 
-## notes 
+## Notes 
 
 To resize the vnc to your screen 
 Use :
 
+```
 vnc-config 
+```
 
 And edit the geometry parameters 
 
@@ -21,7 +23,7 @@ And edit the geometry parameters
 
 - This desktop is super lightweight and optimized
 
-If you want something nicer you can try this :
+Since this repo is in beta, If you want something nicer you can try this :
 
 https://github.com/Yisus7u7/termux-desktop-xfce
 
@@ -41,18 +43,13 @@ The objective of this project is aimed at cell phones with little space or low r
 
 ```
 cd $HOME
-
 pkg update && pkg upgrade
-
 pkg install git
-
 git clone https://github.com/Yisus7u7/termux-desktop-lxqt 
-
 cd termux-desktop-lxqt 
-
 bash install-desktop-lxqt.sh
 ```
-## contribute 
+## Contribute 
 
 You can help the project by correcting bugs and adding improvements to the project 
 extraction requests will be reviewed and if they are correct they will be accepted 
