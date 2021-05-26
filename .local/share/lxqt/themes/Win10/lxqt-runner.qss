@@ -1,0 +1,146 @@
+/*
+ * Panel
+ */
+
+#panel {
+    background:#14191f;
+    border: 1px solid #343434;
+}
+
+/*
+ * Buttons
+ */
+
+QToolButton::menu-indicator {
+   image: none;
+}
+
+#closeButton {
+    qproperty-icon: url(lxqt-runner/close.svg);
+    margin: 0px;
+}
+#closeButton:hover {
+   border: none;
+   background:  transparent;
+}
+#closeButton:pressed {
+   border: none;
+   background:  transparent;
+}
+#actionButton {
+    qproperty-icon: url(lxqt-runner/down-arrow.svg);
+    margin: 0px;
+}
+#actionButton:hover {
+   border: none;
+   background: transparent;
+}
+#actionButton:pressed {
+   border: none;
+   background: transparent;
+}
+
+/*
+ *Search line-edit
+ */
+
+QLineEdit {
+    background: white;
+    border: none;
+    padding: 8px;
+    margin: 4px;
+    color: #1d1c1d;
+    selection-background-color: #93cee9;
+}
+
+/*
+ *Search results list
+ */
+
+/* The list doesn't seem to be stylable completely; so, we left it to the widget style. */
+
+#commandList {
+    border: 1px solid #343434;
+    background: white;
+    alternate-background-color: white;
+    color: #1d1c1d;
+}
+
+/*#commandList::item {
+}
+
+#commandList::item:selected {
+
+}
+
+#commandList::item::hover {
+}*/
+
+/*
+ * Menu
+ */
+
+QMenu {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #343434;
+    background: #14191f;
+    /*qproperty-icon: url(mainmenu.svg);*/
+    color: #f5f5f5;
+}
+
+QMenu::icon {
+    background-color: transparent;
+    border: none;
+}
+
+QMenu QToolButton {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    color: #f5f5f5;
+    font: bold italic;
+}
+
+QMenu::item {
+    border: 20px solid #14191f;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 20px;
+    padding: 6px 40px 6px 24px;
+    background: #14191f;
+    color: #f5f5f5;
+}
+
+QMenu::item:selected {
+    border: 20px solid #454545;
+    background: #454545;
+    color: #f5f5f5;
+}
+
+QMenu::item:selected:disabled {
+    background-color: palette(text);
+}
+
+QMenu::item:disabled {
+    color: #6D6D6D;
+}
+
+QMenu::right-arrow {
+    image: url(arrow-right.svg);
+}
+
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QMenu::indicator:non-exclusive:unchecked {
+    image: url(unchecked.svg);
+}
+
+QMenu::indicator:non-exclusive:checked {
+    image: url(checked.svg);
+}
+
+

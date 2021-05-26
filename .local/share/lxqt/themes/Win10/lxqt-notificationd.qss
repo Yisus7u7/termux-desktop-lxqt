@@ -1,0 +1,25 @@
+Notification {
+    
+    border: none;
+    background:#000000;
+}
+
+QLabel {
+    color: #f5f5f5;
+}
+
+#closeButton {
+    border: none;
+    padding: 2px;
+    qproperty-icon: url(lxqt-notificationd/close.svg);
+}
+
+#closeButton:hover {
+    border: none;
+    padding: 2px;
+    background: transparent;
+}
+
+#appLabel {
+    font-weight: bold;
+}

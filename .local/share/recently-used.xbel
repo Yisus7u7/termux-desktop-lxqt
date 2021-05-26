@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///data/data/com.termux/files/usr/bin/otter-browser" added="2021-05-21T19:42:35.575805Z" modified="2021-05-21T19:42:35.575846Z" visited="2021-05-21T19:42:35.575814Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-mime-helper" exec="&apos;xfce4-mime-helper %u&apos;" modified="2021-05-21T19:42:35.575828Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///data/data/com.termux/files/home/storage/shared/Documents/TALLER_DE_LECTURA_CR_TICA-.pdf" added="2021-05-21T21:54:12.059799Z" modified="2021-05-21T21:54:12.059850Z" visited="2021-05-21T21:54:12.059808Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xournal" exec="&apos;xournal %u&apos;" modified="2021-05-21T21:54:12.059826Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///data/data/com.termux/files/home/Documents/t-build.py" added="2021-05-22T01:08:21.379548Z" modified="2021-05-22T01:08:21.716912Z" visited="2021-05-22T01:08:21.379555Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2021-05-22T01:08:21.716888Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///data/data/com.termux/files/home/Documents/t-make.py" added="2021-05-22T02:21:37.239907Z" modified="2021-05-22T02:21:37.496987Z" visited="2021-05-22T02:21:37.239914Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2021-05-22T02:21:37.496969Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///data/data/com.termux/files/home/compile-test/gnome-menus/Makefile" added="2021-05-24T23:20:33.157172Z" modified="2021-05-24T23:20:33.157207Z" visited="2021-05-24T23:20:33.157179Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2021-05-24T23:20:33.157192Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,76 @@
+{
+	"currentIndex": 1,
+	"title": "",
+	"windows": [
+		{
+			"currentIndex": 1,
+			"geometry": "AdnQywADAAAAAAAAAAAAAAAABP8AAAKvAAAAAAAAAAAAAAJ/AAAB3wAAAAACAAAABQAAAAAAAAAAGAAABP8AAAKv",
+			"toolBars": [
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "MenuBar",
+					"normalVisibility": "visible"
+				},
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "AddressBar",
+					"normalVisibility": "visible"
+				},
+				{
+					"fullScreenVisibility": "visible",
+					"identifier": "ProgressBar",
+					"normalVisibility": "visible"
+				},
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "StatusBar",
+					"normalVisibility": "visible"
+				},
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "SideBar",
+					"location": "left",
+					"normalVisibility": "hidden",
+					"row": 0
+				},
+				{
+					"fullScreenVisibility": "visible",
+					"identifier": "TabBar",
+					"location": "top",
+					"normalVisibility": "visible",
+					"row": 0
+				},
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "BookmarksBar",
+					"location": "top",
+					"normalVisibility": "hidden",
+					"row": 1
+				},
+				{
+					"fullScreenVisibility": "hidden",
+					"identifier": "ErrorConsoleBar",
+					"location": "bottom",
+					"normalVisibility": "hidden",
+					"row": 0
+				}
+			],
+			"windows": [
+				{
+					"currentIndex": 1,
+					"history": [
+						{
+							"title": "",
+							"url": "about:start",
+							"zoom": 100
+						}
+					],
+					"options": {
+						"Search/DefaultSearchEngine": "duckduckgo"
+					},
+					"state": "maximized"
+				}
+			]
+		}
+	]
+}
