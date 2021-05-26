@@ -22,6 +22,8 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
+pkg install -y xcompmgr
+
 pkg install -y lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany 
 
 pkg install -y qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative 

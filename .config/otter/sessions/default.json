@@ -4,7 +4,7 @@
 	"windows": [
 		{
 			"currentIndex": 1,
-			"geometry": "AdnQywADAAAAAAAAAAAAAAAABP8AAAKvAAAAAAAAAAAAAAJ/AAAB3wAAAAACAAAABQAAAAAAAAAAGAAABP8AAAKv",
+			"geometry": "AdnQywADAAAAAAAAAAAAEAAAAsUAAAIgAAAABQAAAC0AAALAAAACGwAAAAAAAAAABQAAAAAFAAAALQAAAsAAAAIb",
 			"toolBars": [
 				{
 					"fullScreenVisibility": "hidden",
@@ -57,11 +57,27 @@
 			],
 			"windows": [
 				{
-					"currentIndex": 1,
+					"currentIndex": 3,
 					"history": [
 						{
 							"title": "",
 							"url": "about:start",
+							"zoom": 100
+						},
+						{
+							"title": "",
+							"url": "https://duckduckgo.com/?q=como+usar+xcompmgr&sourceid=otter&ia=web",
+							"zoom": 100
+						},
+						{
+							"position": "0, 1500",
+							"title": "Composición de ventanas en equipos con pocos recursos | Cartas de Linux",
+							"url": "https://cartaslinux.wordpress.com/2012/04/15/composicion-de-ventanas-en-equipos-con-pocos-recursos/",
+							"zoom": 100
+						},
+						{
+							"title": "Cartas de Linux | Sobre software libre y otras cosas",
+							"url": "https://cartaslinux.wordpress.com/",
 							"zoom": 100
 						}
 					],
