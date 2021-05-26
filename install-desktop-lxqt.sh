@@ -52,6 +52,10 @@ cp -rf $HOME/termux-desktop-lxqt/backgrounds $HOME
 
 cp -rf $HOME/termux-desktop-lxqt/.vnc $HOME
 
+cp -rf $HOME/termux-desktop-lxqt/startdesktop $PREFIX/bin
+
+cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
+
 mkdir $HOME/Desktop 
 mkdir $HOME/Downloads 
 mkdir $HOME/Templates 

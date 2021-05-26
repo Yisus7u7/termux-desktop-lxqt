@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vim ~/.vnc/config
