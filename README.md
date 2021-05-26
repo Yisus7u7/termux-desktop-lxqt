@@ -20,10 +20,14 @@ termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so 
 
 # installation 
 
-``
+```
 pkg update && pkg upgrade
 
 pkg install git
 
-git clone
-``
+git clone https://github.com/Yisus7u7/termux-desktop-lxqt 
+
+cd termux-desktop-lxqt 
+
+bash install-desktop-lxqt.sh
+```
