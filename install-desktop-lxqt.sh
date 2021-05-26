@@ -22,42 +22,23 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
-pkg install -y xcompmgr
-
-pkg install -y lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany 
-
-pkg install -y qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative 
-
-pkg install -y vim
-
-pkg install -y xfwm4
+pkg install -y xcompmgr xfwm4 vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative 
 
 #setting desktop and folders
 
 mv $HOME/.config $HOME/config.old
-
 mv $HOME/.local $HOME/.local.old 
-
 rm -rf $HOME/.config 
-
 rm -rf $HOME/.local
-
 rm -rf $HOME/.themes
-
 rm -rf $HOME/.icons
-
 rm -rf $HOME/.vnc
 
 cp -rf $HOME/termux-desktop-lxqt/.config $HOME
-
 cp -rf $HOME/termux-desktop-lxqt/.local $HOME
-
 cp -rf $HOME/termux-desktop-lxqt/backgrounds $HOME
-
 cp -rf $HOME/termux-desktop-lxqt/.vnc $HOME
-
 cp -rf $HOME/termux-desktop-lxqt/startdesktop $PREFIX/bin
-
 cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
 
 mkdir $HOME/Desktop 
