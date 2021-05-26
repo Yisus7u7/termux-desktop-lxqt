@@ -28,6 +28,8 @@ pkg install -y qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras qt5-qtwe
 
 pkg install -y vim
 
+pkg install -y xfwm4
+
 #setting desktop and folders
 
 mv $HOME/.config $HOME/config.old
