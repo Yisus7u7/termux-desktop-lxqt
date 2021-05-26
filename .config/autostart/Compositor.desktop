@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+Exec=xcompmgr -n -f -c
 Name=Compositor
 Type=Application
 Version=1.0
