@@ -10,6 +10,13 @@ termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so 
 
 ## notes 
 
+To resize the vnc to your screen 
+Use :
+
+vnc-config 
+
+And edit the geometry parameters 
+
 - lxqt is echo 100% in qt5, does not use gtk
 
 - This desktop is super lightweight and optimized
