@@ -8,6 +8,18 @@ Termux desktop lxqt is a configuration of the very recent lxqt environment, avai
 your goal is to be a light, and very simple! 
 termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so far 
 
+## notes 
+
+- lxqt is echo 100% in qt5, does not use gtk
+
+- This desktop is super lightweight and optimized
+
+If you want something nicer you can try this :
+
+https://github.com/Yisus7u7/termux-desktop-xfce
+
+The objective of this project is aimed at cell phones with little space or low resources 
+
 ## screenshots
 
 ![escritorio](./fotos/image1.png)
