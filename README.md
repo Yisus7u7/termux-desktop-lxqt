@@ -17,7 +17,7 @@ vnc-config
 
 And edit the geometry parameters 
 
-- lxqt is echo 100% in qt5, does not use gtk
+- lxqt is made 100% in qt5, does not use gtk
 
 - This desktop is super lightweight and optimized
 
