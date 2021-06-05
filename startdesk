@@ -1,0 +1,1 @@
+vncserver -name remote-desktop -localhost :1
