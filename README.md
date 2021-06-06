@@ -49,6 +49,21 @@ git clone https://github.com/Yisus7u7/termux-desktop-lxqt
 cd termux-desktop-lxqt 
 bash install-desktop-lxqt.sh
 ```
+## use 
+
+
+To start the vnc server :
+
+```
+start-desktop
+```
+
+To close it :
+
+```
+stop-desktop
+```
+
 ## Contribute 
 
 You can help the project by correcting bugs and adding improvements to the project 
