@@ -55,6 +55,9 @@ ln -s $HOME/storage/music $HOME/Music
 
 
 echo -e """\e[1;32menjoy!!
-To start the vnc server, use the command: vncserver or startdesktop to stop it, use the command: vncserver -kill: 1 Replace the: 1 with the port on which the vnc service is running\e[1m"""
+To Start The Vnc Server, Type start-desktop
+To Stop It, Type stop-desktop
+or You Can Manually Type vncserver , vncserver -kill
+\e[1m"""
 
 exit
