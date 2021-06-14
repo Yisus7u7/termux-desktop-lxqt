@@ -3,6 +3,8 @@ Install a simple and very lively desktop in termux
 
 ![intro](./fotos/desk.png)
 
+> Current version of this project : v2.0.1
+
 ### What is Termux-desktop-lxqt? 
 
 Termux desktop lxqt is a configuration of the very recent lxqt environment, available in x11 termux
