@@ -1,6 +1,7 @@
 # Termux-desktop-lxqt
 Install a simple and very lively desktop in termux 
 
+![intro](./fotos/desk.png)
 
 ### What is Termux-desktop-lxqt? 
 
@@ -31,13 +32,13 @@ The objective of this project is aimed at cell phones with little space or low r
 
 ## screenshots
 
-![escritorio](./fotos/image1.png)
+![escritorio](./fotos/neofetch-and-menu.png)
 
-![escritorio](./fotos/image3.png)
+![escritorio](./fotos/pcmanfm-qt_and_qterminal.png)
 
-![escritorio](./fotos/image4.png)
+![escritorio](./fotos/text-editor.png)
 
-![escritorio](./fotos/image5.png)
+![escritorio](./fotos/wiki-and-about.png)
 
 # installation 
 
