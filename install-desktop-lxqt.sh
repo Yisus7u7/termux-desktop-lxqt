@@ -26,7 +26,7 @@ pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttoo
 
 #setting desktop 
 
-mv $HOME/.config $HOME/config.old
+mv $HOME/.config $HOME/.config.old
 mv $HOME/.local $HOME/.local.old 
 rm -rf $HOME/.config 
 rm -rf $HOME/.local
