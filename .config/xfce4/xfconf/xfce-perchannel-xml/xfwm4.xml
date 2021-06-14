@@ -81,5 +81,11 @@
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
     <property name="zoom_pointer" type="bool" value="true"/>
+    <property name="workspace_names" type="array">
+      <value type="string" value="desktop 1"/>
+      <value type="string" value="desktop 2"/>
+      <value type="string" value="desktop 3"/>
+      <value type="string" value="desktop 4"/>
+    </property>
   </property>
 </channel>

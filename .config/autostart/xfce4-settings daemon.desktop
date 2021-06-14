@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=xfsettingsd &
+Name=xfce4-settings daemon
+Type=Application
+Version=1.0

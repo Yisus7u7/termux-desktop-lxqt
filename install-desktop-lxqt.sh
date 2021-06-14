@@ -22,9 +22,9 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
-pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative 
+pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler
 
-#setting desktop and folders
+#setting desktop 
 
 mv $HOME/.config $HOME/config.old
 mv $HOME/.local $HOME/.local.old 
@@ -41,6 +41,16 @@ cp -rf $HOME/termux-desktop-lxqt/.vnc $HOME
 cp -rf $HOME/termux-desktop-lxqt/start-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/stop-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
+
+#setting themes and icons
+cp -rf $HOME/termux-desktop-lxqt/icons.tar $HOME
+cp -rf $HOME/termux-desktop-lxqt/themes.tar $HOME
+tar -xvf $HOME/icons.tar 
+tar -xvf $HOME/themes.tar
+rm -rf $HOME/icons.tar
+rm -rf $HOME/themes.tar
+
+#setting folders
 
 mkdir $HOME/Desktop 
 mkdir $HOME/Downloads 

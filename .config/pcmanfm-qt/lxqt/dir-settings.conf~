@@ -1,0 +1,8 @@
+[/data/data/com.termux/files/home]
+SortOrder=ascending
+SortColumn=name
+ViewMode=icon
+ShowHidden=false
+SortFolderFirst=true
+SortHiddenLast=false
+SortCaseSensitive=false

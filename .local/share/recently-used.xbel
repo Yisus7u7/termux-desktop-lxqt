@@ -53,4 +53,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///data/data/com.termux/files/home/Desktop/user-home.desktop" added="2021-06-13T22:19:43.033181Z" modified="2021-06-13T22:19:43.033214Z" visited="2021-06-13T22:19:43.033188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2021-06-13T22:19:43.033199Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
