@@ -8,7 +8,7 @@ clear
 
 echo -e """
 
-\e[1;33mTermux Desktop\e[1m 
+\e[1;33mTermux Desktop lxqt\e[1m 
    \e[1;31mby \e[4;36mYisus7u7\e[4m \e[1m
 
 
@@ -22,7 +22,7 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
-pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler xfce4-settings
+pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler xfce4-settings neovim
 
 #setting desktop 
 
