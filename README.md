@@ -50,6 +50,16 @@ git clone https://github.com/Yisus7u7/termux-desktop-lxqt
 cd termux-desktop-lxqt 
 bash install-desktop-lxqt.sh
 ```
+# Update 
+
+To update your desktop, if you already have it installed run:
+
+```
+cd $HOME/termux-desktop-lxqt
+git pull
+bash update.sh
+```
+
 ## use 
 
 
