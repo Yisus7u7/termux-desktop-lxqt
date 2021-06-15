@@ -11,6 +11,12 @@ Termux desktop lxqt is a configuration of the very recent lxqt environment, avai
 your goal is to be a light, and very simple! 
 termux-desktop-lxqt is the most optimized desktop you'll find for termux-x11 so far 
 
+## Requirements 
+
+- Android 7 or higher (8, 9, 10, 11, 12)
+- [termux](https://f-droid.org/en/packages/com.termux/) 
+- [vnc viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) 
+You can also use bvnc, nethunter kex, bvnc pro. 
 ## Notes 
 
 To resize the vnc to your screen 
