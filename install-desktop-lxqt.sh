@@ -22,7 +22,7 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
-pkg install -y xcompmgr audacious vim-gtk qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler xfce4-settings neovim termux-api
+pkg install -y xcompmgr audacious xpdf qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler termux-api geany-plugins xorg-xprop neofetch galculator qt5-qttools
 
 #setting desktop 
 
@@ -33,23 +33,15 @@ rm -rf $HOME/.local
 rm -rf $HOME/.themes
 rm -rf $HOME/.icons
 rm -rf $HOME/.vnc
-
-cp -rf $HOME/termux-desktop-lxqt/.config $HOME
-cp -rf $HOME/termux-desktop-lxqt/.local $HOME
-cp -rf $HOME/termux-desktop-lxqt/backgrounds $HOME
-cp -rf $HOME/termux-desktop-lxqt/.vnc $HOME
+rm -rf $HOME/Pictures
 cp -rf $HOME/termux-desktop-lxqt/start-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/stop-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
 
 #setting themes and icons
-cp -rf $HOME/termux-desktop-lxqt/icons.tar $HOME
-cp -rf $HOME/termux-desktop-lxqt/themes.tar $HOME
-tar -xvf $HOME/icons.tar 
-tar -xvf $HOME/themes.tar
-rm -rf $HOME/icons.tar
-rm -rf $HOME/themes.tar
-
+cp -rf $HOME/termux-desktop-lxqt/data.tar.xz
+tar -xvf data.tar.xz
+rm data.tar.xz
 #setting folders
 
 mkdir $HOME/Desktop 
@@ -57,7 +49,6 @@ mkdir $HOME/Downloads
 mkdir $HOME/Templates 
 mkdir $HOME/Public 
 mkdir $HOME/Documents 
-mkdir $HOME/Pictures 
 mkdir $HOME/Video
 
 termux-setup-storage

@@ -1,7 +1,8 @@
 #!/bin/bash
 #script for update lxqt desktop
+cd $HOME
 apt update
-apt install xfce4-settings
+apt upgrade -y
 rm -rf $HOME/.config.old
 rm -rf $HOME/.icons
 rm -rf $HOME/.themes
@@ -9,11 +10,6 @@ rm -rf $HOME/.local
 mv $HOME/.config $HOME/.config.old
 git pull $HOME/termux-desktop-lxqt/
 #setting themes and icons
-cp -rf $HOME/termux-desktop-lxqt/icons.tar $HOME
-cp -rf $HOME/termux-desktop-lxqt/themes.tar $HOME
-tar -xvf $HOME/icons.tar 
-tar -xvf $HOME/themes.tar
-rm -rf $HOME/icons.tar
-rm -rf $HOME/themes.tar
-cp -rf $HOME/termux-desktop-lxqt/.config $HOME
-cp -rf $HOME/termux-desktop-lxqt/.local $HOME
+cp -rf $HOME/termux-desktop-lxqt/data.tar.xz $HOME
+tar -xvf data.tar.xz
+rm data.tar.xz
