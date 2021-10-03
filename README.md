@@ -54,7 +54,7 @@ The objective of this project is aimed at cell phones with little space or low r
 cd $HOME
 pkg update && pkg upgrade
 pkg install git
-git clone https://github.com/Yisus7u7/termux-desktop-lxqt 
+git clone --depth 1 https://github.com/Yisus7u7/termux-desktop-lxqt 
 cd termux-desktop-lxqt 
 bash install-desktop-lxqt.sh
 ```
