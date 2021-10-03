@@ -39,7 +39,7 @@ cp -rf $HOME/termux-desktop-lxqt/stop-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
 
 #setting themes and icons
-cp -rf $HOME/termux-desktop-lxqt/data.tar.xz
+cp -rf $HOME/termux-desktop-lxqt/data.tar.xz $HOME
 tar -xvf data.tar.xz
 rm data.tar.xz
 #setting folders
