@@ -56,6 +56,10 @@ tar -xvf termux_desktop_lxqt_data.tar.xz
 mv materia-theme/* $PREFIX/share/themes/
 rm -rf materia-theme
 rm termux_desktop_lxqt_data.tar.xz
+wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/breeze-cursor-theme_5.20.5-4_all.deb
+apt install ./breeze-cursor-theme_5.20.5-4_all.deb
+rm breeze-cursor-theme_5.20.5-4_all.deb
+
 #setting folders
 
 mkdir $HOME/Desktop 
