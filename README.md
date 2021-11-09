@@ -3,7 +3,7 @@ Install a simple and very lively desktop in termux
 
 ![intro](./fotos/desk.png)
 
-> Current version of this project : v2.0.1
+> Current version of this project : v2.1.3
 
 ### What is Termux-desktop-lxqt? 
 
