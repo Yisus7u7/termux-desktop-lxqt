@@ -1,6 +1,8 @@
 #!/bin/bash
 
-clear 
+clear
+
+PACKAGE="https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/termux_desktop_lxqt_data.tar.xz"
 
 #this script will configure a graphical user interface 
 #(lxqt) in termux
@@ -22,7 +24,10 @@ pkg update && pkg upgrade
 
 pkg install -y x11-repo
 
-pkg install -y xcompmgr audacious xpdf qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative tumbler termux-api geany-plugins xorg-xprop neofetch galculator qt5-qttools
+pkg install -y xcompmgr audacious xpdf qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative termux-api geany-plugins xorg-xprop neofetch galculator qt5-qttools glade feathernotes xorg-xprop mtpaint xorg-xhost
+
+# Unstable packages 
+pkg install -y gobject-introspection at-spi2-atk 
 
 #setting desktop 
 
@@ -34,14 +39,23 @@ rm -rf $HOME/.themes
 rm -rf $HOME/.icons
 rm -rf $HOME/.vnc
 rm -rf $HOME/Pictures
+rm $PREFIX/bin/start-desktop
+rm $PREFIX/bin/stop-desktop
+rm $PREFIX/bin/vnc-config
+rm $PREFIX/bin/vnc-autostart-config
 cp -rf $HOME/termux-desktop-lxqt/start-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/stop-desktop $PREFIX/bin
 cp -rf $HOME/termux-desktop-lxqt/vnc-config $PREFIX/bin
+cp -rf $HOME/termux-desktop-lxqt/vnc-autostart-config $PREFIX/bin
 
 #setting themes and icons
-cp -rf $HOME/termux-desktop-lxqt/data.tar.xz $HOME
-tar -xvf data.tar.xz
-rm data.tar.xz
+cd $HOME
+echo "Downloading package data..."
+wget $PACKAGE
+tar -xvf termux_desktop_lxqt_data.tar.xz
+mv materia-theme/* $PREFIX/share/themes/
+rm -rf materia-theme
+rm termux_desktop_lxqt_data.tar.xz
 #setting folders
 
 mkdir $HOME/Desktop 
