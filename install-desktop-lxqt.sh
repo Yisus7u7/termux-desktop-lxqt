@@ -22,7 +22,7 @@ echo -e '\e[1;36m installing lxqt and basic apps...\e[1m'
 
 pkg update && pkg upgrade 
 
-pkg install -y x11-repo
+pkg install -y x11-repo wget
 
 pkg install -y xcompmgr audacious xpdf qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative termux-api geany-plugins xorg-xprop neofetch galculator qt5-qttools glade feathernotes xorg-xprop mtpaint xorg-xhost
 
