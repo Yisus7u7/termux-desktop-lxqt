@@ -68,7 +68,7 @@ mkdir $HOME/Templates
 mkdir $HOME/Public 
 mkdir $HOME/Documents 
 mkdir $HOME/Video
-
+chmod +x ~/.vnc/xstartup
 termux-setup-storage
 ln -s $HOME/storage/music $HOME/Music
 
