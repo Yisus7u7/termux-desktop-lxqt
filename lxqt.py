@@ -7,18 +7,20 @@ from colorama import *
 #
 init(autoreset=True)
 #
-RED        = Fore.RED
-GREEN      = Fore.GREEN
-BLUE       = Fore.BLUE
-YELLOW     = Fore.YELLOW
-MAGENTA    = Fore.MAGENTA
-CYAN       = Fore.CYAN
+RED         = Fore.RED
+GREEN       = Fore.GREEN
+BLUE        = Fore.BLUE
+YELLOW      = Fore.YELLOW
+MAGENTA     = Fore.MAGENTA
+CYAN        = Fore.CYAN
 
-BOLD       = '\033[1m'
+BOLD        = '\033[1m'
+BRIGHT      = Style.BRIGHT
 
-BACKRED    = Back.RED
-BACKGREEN  = Back.GREEN
-BACKYELLOW = Back.YELLOW
+BACKRED     = Back.RED
+BACKGREEN   = Back.GREEN
+BACKYELLOW  = Back.YELLOW
+BACKMAGENTA = Back.MAGENTA
 
 RESET      = Style.RESET_ALL
 #
@@ -36,7 +38,8 @@ class icons_themes:
 	
 	def themes():
 		system('mv materia-theme/* $PREFIX/share/themes/')
-		system('rm -rf materia-theme')		system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/breeze-cursor-theme_5.20.5-4_all.deb')
+		system('rm -rf materia-theme')
+		system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/breeze-cursor-theme_5.20.5-4_all.deb')
 		system('apt install ./breeze-cursor-theme_5.20.5-4_all.deb')
 		system('rm breeze-cursor-theme_5.20.5-4_all.deb')
 
@@ -77,3 +80,53 @@ def folders():
 def exit_py():
 	pass
 #
+
+def main():
+	pass
+
+interface = BRIGHT + MAGENTA + "Termux-Desktop "
+print(interface.center(60))
+sleep(1)
+print(BRIGHT + MAGENTA + "  ENVIRONMENT :" + RESET + BRIGHT + CYAN + " LXQT ")
+sleep(0.2)
+print(BRIGHT + MAGENTA + "  VERSION     :" + RESET + BRIGHT + GREEN + " 2.1.3 ")
+sleep(0.2)
+print(BRIGHT + MAGENTA + "  CREATED BY  :" + RESET + BRIGHT + YELLOW + " Yisus7u7")
+sleep(1)
+print(BRIGHT + MAGENTA + "\n\t Push " + BRIGHT + YELLOW + "ENTER " + BRIGHT + MAGENTA + "to continue ... ")
+input(BRIGHT + GREEN + " >> ")
+
+
+print(BRIGHT + MAGENTA + "REMOVING OLD FILES IF EXISTS" + RESET)
+setting_desktop()
+
+print(BRIGHT + MAGENTA + "REMOVING UNNECESSARY FILES AND CLEARING CACHE")
+system('apt clean')
+system('apt autoremove')
+
+print(RESET + BRIGHT + MAGENTA + "INSTALLING PACKAGES AND APPLICATIONS " + BRIGHT + GREEN )
+sleep(0.5)
+system(pkgs.X11)
+system(pkgs.PKGS)
+system(pkgs.UNSTABLE)
+
+print(RESET + BRIGHT + MAGENTA + " \tFetching Themes and Icon File ")
+sleep(0.5)
+system(icons_themes.icons())
+system(icons_themes.themes())
+
+print(RESET + MAGENTA + "\t  Settingup Directories")
+sleep(0.5)
+folders()
+
+print(RESET + BRIGHT + MAGENTA + "\t Almost Done ...")
+sleep(0.2)
+extra.access_storage()
+extra.symbolic_link()
+
+print(RESET + BRIGHT + MAGENTA + "\tPROCESS FINISHED ")
+sleep(0.5)
+
+print(RESET + BRIGHT + GREEN + " If You Facing Any Issues About LXQT Post at : ")
+print(RESET + BRIGHT + BACKMAGENTA + " https://github.com/Yisus7u7/termux-desktop-lxqt/issues ")
+sleep(1)
