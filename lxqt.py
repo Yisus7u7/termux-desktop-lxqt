@@ -30,18 +30,18 @@ class pkgs:
 	PKGS     = 'pkg install -y xcompmgr audacious xpdf qt5-qtbase-gtk-platformtheme qt5-qttools qt5-qtx11extras lxqt lxqt-build-tools otter-browser qgit featherpad gtk2 gtk3 python-tkinter tigervnc xorg-xhost openbox geany qt5-qtwebsockets qt5-qtxmlpatterns qt5-qtdeclarative termux-api geany-plugins xorg-xprop neofetch galculator qt5-qttools glade feathernotes xorg-xprop mtpaint xorg-xhost'
 	UNSTABLE = 'pkg install -y gobject-introspection at-spi2-atk '
 	
-class icons_themes:
-	def icons():
-		system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/termux_desktop_lxqt_data.tar.xz')
-		system('tar -xvf termux_desktop_lxqt_data.tar.xz')
-		system('rm termux_desktop_lxqt_data.tar.xz')
+
+def icons():
+	system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/termux_desktop_lxqt_data.tar.xz')
+	system('tar -xvf termux_desktop_lxqt_data.tar.xz')
+	system('rm termux_desktop_lxqt_data.tar.xz')
 	
-	def themes():
-		system('mv materia-theme/* $PREFIX/share/themes/')
-		system('rm -rf materia-theme')
-		system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/breeze-cursor-theme_5.20.5-4_all.deb')
-		system('apt install ./breeze-cursor-theme_5.20.5-4_all.deb')
-		system('rm breeze-cursor-theme_5.20.5-4_all.deb')
+def themes():
+	system('mv materia-theme/* $PREFIX/share/themes/')
+	system('rm -rf materia-theme')
+	system('wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/breeze-cursor-theme_5.20.5-4_all.deb')
+	system('apt install ./breeze-cursor-theme_5.20.5-4_all.deb')
+	system('rm breeze-cursor-theme_5.20.5-4_all.deb')
 
 class extra:
 	def access_storage():
@@ -112,8 +112,8 @@ system(pkgs.UNSTABLE)
 
 print(RESET + BRIGHT + MAGENTA + " \tFetching Themes and Icon File ")
 sleep(0.5)
-system(icons_themes.icons())
-system(icons_themes.themes())
+icons()
+themes()
 
 print(RESET + MAGENTA + "\t  Settingup Directories")
 sleep(0.5)
