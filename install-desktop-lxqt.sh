@@ -8,6 +8,7 @@ sleep 1
 pkg install python wget -y
 python -m pip install --upgrade pip
 pip install colorama
+clear
 python termux-desktop-lxqt/lxqt.py
 
 echo -e """\e[1;32menjoy!!
