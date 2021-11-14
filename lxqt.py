@@ -4,6 +4,7 @@
 from os import system
 from time import sleep
 from colorama import *
+import os
 #
 init(autoreset=True)
 #
@@ -84,6 +85,7 @@ def exit_py():
 def main():
 	pass
 
+os.chdir(r'/data/data/com.termux/files/home')
 interface = BRIGHT + MAGENTA + "Termux-Desktop "
 print(interface.center(60))
 sleep(1)
