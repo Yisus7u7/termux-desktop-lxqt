@@ -132,3 +132,4 @@ sleep(0.5)
 print(RESET + BRIGHT + GREEN + " If You Facing Any Issues About LXQT Post at : ")
 print(RESET + BRIGHT + BACKMAGENTA + " https://github.com/Yisus7u7/termux-desktop-lxqt/issues ")
 sleep(1)
+
