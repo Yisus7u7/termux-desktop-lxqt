@@ -10,7 +10,7 @@ python -m pip install --upgrade pip
 pip install colorama
 clear
 python termux-desktop-lxqt/lxqt.py
-
+mv termux-desktop/main.py $PREFIX/bin/e-tnv
 #pkg in wget;wget https://github.com/Learn-Termux/env-distro/raw/main/e-tnv.sh;chmod +x e-tnv.sh;./e-tnv.sh
 
 echo -e """\e[1;32menjoy!!
