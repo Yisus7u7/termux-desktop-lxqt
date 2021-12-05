@@ -10,10 +10,8 @@ python -m pip install --upgrade pip
 pip install colorama
 clear
 python termux-desktop-lxqt/lxqt.py
-mv termux-desktop/main.py $PREFIX/bin/e-tnv
-#pkg in wget;wget https://github.com/Learn-Termux/env-distro/raw/main/e-tnv.sh;chmod +x e-tnv.sh;./e-tnv.sh
-wget https://github.com/Learn-Termux/env-distro/raw/main/font.ttf -O .termux/font.ttf
-termux-reload-settings
+chmod +x termux-desktop-lxqt/main.py
+mv termux-desktop-lxqt/main.py $PREFIX/bin/e-tnv
 echo -e """\e[1;32menjoy!!
 To Start The Vnc Server, Type e-tnv start
 To Stop It, Type e-tnv stopall
