@@ -11,7 +11,7 @@ pip install colorama
 clear
 python termux-desktop-lxqt/lxqt.py
 
-pkg in wget;wget https://github.com/Learn-Termux/env-distro/raw/main/e-tnv.sh;chmod +x e-tnv.sh;./e-tnv.sh
+#pkg in wget;wget https://github.com/Learn-Termux/env-distro/raw/main/e-tnv.sh;chmod +x e-tnv.sh;./e-tnv.sh
 
 echo -e """\e[1;32menjoy!!
 To Start The Vnc Server, Type start-desktop
